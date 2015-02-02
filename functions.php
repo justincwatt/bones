@@ -248,7 +248,9 @@ add_action('wp_enqueue_scripts', 'bones_fonts');
 add_theme_support( 'html5', array(
 	'comment-list',
 	'search-form',
-	'comment-form'
+	'comment-form',
+	'gallery',
+	'caption',
 ) );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
